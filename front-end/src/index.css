@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+    font-family: "Inter Tight", sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary {
+    /* Hover=true (component) */
+    padding: 1.2rem 1.5rem;
+    background: #00ff93;
+
+    border: 1px solid #000000;
+    border-radius: 4px;
+
+    box-shadow: 4px 4px 0px #000000;
+
+    font-family: 'Lato',"Cascadia Code",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1;
+    text-align: center;
+    transition: 0.2s ease all;
+    cursor: pointer;
+
+    color: #000000;
+}
+
+.btn-primary:hover {
+    box-shadow: 8px 8px 0px #000000;
+}
+
+a{
+    text-decoration: none;
+}
