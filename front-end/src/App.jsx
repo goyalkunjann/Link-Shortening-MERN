@@ -12,7 +12,9 @@ import LinkDetails from "./pages/LinkDetails/LinkDetails";
 import Page404 from "./components/404/404";
 import NotAuthenticated from "./components/NotAuthenticated/NotAuthenticated";
 
+
 function App() {
+    const url="https://link-shortening-mern-backend-yt.onrender.com";
     const [count, setCount] = useState(0);
     const [url, setUrl] = useState("");
     const [name, setName] = useState("");
